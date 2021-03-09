@@ -19,8 +19,8 @@ export const Home = (props: IHomeProp) => {
         <h2>Welcome to MCB Reader</h2>
         <p className="lead">This is your homepage</p>
         <div className="form-group">
-          <label className="col-form-label col-form-label-lg" htmlFor="inputLarge">Large input</label>
-          <input className="form-control form-control-lg" type="text" placeholder=".form-control-lg" id="inputLarge"/>
+          <label className="col-form-label col-form-label-lg" htmlFor="inputLarge">MCB Frame</label>
+          <input className="form-control form-control-lg" type="text" placeholder="0116410200030000000028C1" id="inputLarge"/>
         </div>
       </Col>
         {/* {account && account.login ? (
