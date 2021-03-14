@@ -87,11 +87,11 @@ export const Home = (props: IHomeProp) => {
   );
 };
 
-const mapStateToProps = storeState => ({
-  account: storeState.authentication.account,
-  isAuthenticated: storeState.authentication.isAuthenticated,
-});
+// const mapStateToProps = storeState => ({
+//   account: storeState.authentication.account,
+//   isAuthenticated: storeState.authentication.isAuthenticated,
+// });
 
-type StateProps = ReturnType<typeof mapStateToProps>;
+// type StateProps = ReturnType<typeof mapStateToProps>;
 
-export default connect(mapStateToProps)(Home);
+// export default connect(mapStateToProps)(Home);
